@@ -69,34 +69,32 @@
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JPN-Ny-lsQ">
                                             <rect key="frame" x="16" y="11" width="65" height="65"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="65" id="8Hg-5l-cMp"/>
-                                                <constraint firstAttribute="height" constant="65" id="RJR-GZ-5KA"/>
+                                                <constraint firstAttribute="height" constant="65" id="ROG-0P-Nxp"/>
+                                                <constraint firstAttribute="width" constant="65" id="Wib-HS-XNz"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OUL-8o-uLZ">
-                                            <rect key="frame" x="81" y="11" width="69" height="79.5"/>
+                                            <rect key="frame" x="89" y="11" width="69" height="90.5"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QTE-lt-509">
-                                            <rect key="frame" x="81" y="94.5" width="278" height="14.5"/>
+                                            <rect key="frame" x="89" y="105.5" width="286" height="14.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="OUL-8o-uLZ" firstAttribute="leading" secondItem="JPN-Ny-lsQ" secondAttribute="trailing" id="9cZ-h4-cDB"/>
-                                        <constraint firstItem="QTE-lt-509" firstAttribute="top" secondItem="OUL-8o-uLZ" secondAttribute="bottom" constant="4" id="BVc-ZO-RcB"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="QTE-lt-509" secondAttribute="trailing" id="D5N-P7-Hl4"/>
-                                        <constraint firstItem="OUL-8o-uLZ" firstAttribute="top" secondItem="S1W-GY-XMx" secondAttribute="topMargin" id="N9R-vk-4UI"/>
-                                        <constraint firstItem="JPN-Ny-lsQ" firstAttribute="top" secondItem="S1W-GY-XMx" secondAttribute="topMargin" id="S93-J1-Wst"/>
-                                        <constraint firstItem="QTE-lt-509" firstAttribute="leading" secondItem="JPN-Ny-lsQ" secondAttribute="trailing" id="kZW-EF-yWq"/>
-                                        <constraint firstItem="OUL-8o-uLZ" firstAttribute="leading" secondItem="JPN-Ny-lsQ" secondAttribute="trailing" id="pLX-FU-Qb5"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="QTE-lt-509" secondAttribute="bottom" id="rNv-dv-UOm"/>
-                                        <constraint firstItem="OUL-8o-uLZ" firstAttribute="top" secondItem="S1W-GY-XMx" secondAttribute="topMargin" id="s5K-yK-WGs"/>
-                                        <constraint firstItem="JPN-Ny-lsQ" firstAttribute="leading" secondItem="S1W-GY-XMx" secondAttribute="leadingMargin" id="y05-LO-IiG"/>
+                                        <constraint firstAttribute="trailing" secondItem="QTE-lt-509" secondAttribute="trailing" id="0Dy-Pv-VMz"/>
+                                        <constraint firstItem="OUL-8o-uLZ" firstAttribute="top" secondItem="S1W-GY-XMx" secondAttribute="topMargin" id="7ue-ON-2v4"/>
+                                        <constraint firstItem="OUL-8o-uLZ" firstAttribute="leading" secondItem="JPN-Ny-lsQ" secondAttribute="trailing" constant="8" id="Dkb-jI-RVw"/>
+                                        <constraint firstItem="QTE-lt-509" firstAttribute="leading" secondItem="JPN-Ny-lsQ" secondAttribute="trailing" constant="8" id="OGN-j1-SOG"/>
+                                        <constraint firstItem="QTE-lt-509" firstAttribute="top" secondItem="OUL-8o-uLZ" secondAttribute="bottom" constant="4" id="Rq3-uy-gEP"/>
+                                        <constraint firstAttribute="bottom" secondItem="QTE-lt-509" secondAttribute="bottom" id="f8K-1J-t8H"/>
+                                        <constraint firstItem="JPN-Ny-lsQ" firstAttribute="leading" secondItem="S1W-GY-XMx" secondAttribute="leadingMargin" id="r5g-IL-uGu"/>
+                                        <constraint firstItem="JPN-Ny-lsQ" firstAttribute="top" secondItem="S1W-GY-XMx" secondAttribute="topMargin" id="sr2-CL-nY0"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
