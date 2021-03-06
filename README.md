@@ -1,6 +1,7 @@
 # Project 3 - *TWITTER*
 
 **TWITTER** is a basic twitter app to read your tweets.
+Time spent: **3** hours spent in total
 
 ## User Stories
 
@@ -18,6 +19,9 @@ The following **bonus** features are implemented:
 - [X] User can load past tweets infinitely. (2pts)
 
 ## Video Walkthrough
+Here is a walkthrough of implemented stories:
 
+![Twitter App demo1](twitter-demo.gif)
 
 ![Twitter App demo](demo.gif)
+
