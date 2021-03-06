@@ -23,5 +23,5 @@ Here is a walkthrough of implemented stories:
 
 ![Twitter App demo1](twitter-demo.gif)
 
-![Twitter App demo](demo.gif)
+![Twitter App demo](twitterdemo.gif)
 
