@@ -25,3 +25,4 @@ Here is a walkthrough of implemented stories:
 
 ![Twitter App demo](twitterdemo.gif)
 
+![Twitter App demo2](staylogindemo.gif)
